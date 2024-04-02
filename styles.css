@@ -15,7 +15,7 @@ body {
 /* Estilos de navegación */
 
 header {
-    background-color: #333;
+    background-color: #0D0D0D;
     color: #fff;
     padding: 20px 0;
 }
@@ -38,7 +38,7 @@ header nav ul li a {
 /* Estilos del Hero */
 
 #hero {
-    background-color: #f4f4f4;
+    background-color: #3F51B5;
     padding: 100px 0;
     text-align: center;
 }
@@ -46,19 +46,25 @@ header nav ul li a {
 #hero h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
+    color: #fff;
 }
 
 #hero p {
     font-size: 1.2em;
     margin-bottom: 40px;
+    color: #fff;
 }
 
 .btn {
-    background-color: #333;
+    background-color: #FF5722;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #FF7043;
 }
 
 /* Estilos de servicios */
@@ -78,7 +84,7 @@ header nav ul li a {
 /* Estilos de formulario de contacto */
 
 #contacto {
-    background-color: #333;
+    background-color: #607D8B;
     color: #fff;
     padding: 100px 0;
 }
@@ -93,20 +99,20 @@ header nav ul li a {
 }
 
 #contacto form button {
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #FF5722;
+    color: #fff;
     border: none;
     cursor: pointer;
 }
 
 #contacto form button:hover {
-    background-color: #ddd;
+    background-color: #FF7043;
 }
 
 /* Estilos de pie de página */
 
 footer {
-    background-color: #333;
+    background-color: #0D0D0D;
     color: #fff;
     padding: 20px 0;
     text-align: center;
